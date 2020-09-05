@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.01239">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: git symbolic-ref --short -q HEAD" time="0.05344">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: git checkout production" time="0.500907">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: git_pull" time="4.085809">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: increment_build_number_in_plist" time="1.34143">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: get_build_number_from_plist" time="0.07944">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: git_commit" time="0.204619">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: git push origin HEAD:production" time="1.248724">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: rm -rf ../build" time="0.068528">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: cocoapods" time="9.278688">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: fastlane development debug:Release path:/Users/hexin/workHexin/project/yaku_merchant_ios isProduction:true" time="547.909007">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
